@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Qtcppproject
+Bundle-SymbolicName: com.trolltech.qtcpp;singleton:=true
+Bundle-Version: 1.6.1
+Bundle-Activator: qtcppproject.Activator
+Bundle-Vendor: arno
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.resources,
+ org.eclipse.ui.dialogs,
+ org.eclipse.ui.part,
+ org.eclipse.ui.texteditor
+Export-Package: com.trolltech.qtcppcommon.editors
