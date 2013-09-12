@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Qtcppproject
+Bundle-Name: Qt Eclipse Integration
 Bundle-SymbolicName: com.trolltech.qtcpp;singleton:=true
 Bundle-Version: 1.6.1
 Bundle-Activator: qtcppproject.Activator
-Bundle-Vendor: arno
+Bundle-Vendor: verphen
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
